@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../components/Footer";
 import FadeInSection from "../components/FadeInSection";
 
 const ContactPage = () => {
@@ -242,7 +241,6 @@ const ContactPage = () => {
             <div className="max-w-full border-t border-[#2D3925]">
 
             </div>
-            <Footer />
         </>
     );
 };

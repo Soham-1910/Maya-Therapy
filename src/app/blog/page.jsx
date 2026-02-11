@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import SubscribeSection from "../Sections/SubscribeSection";
-import Footer from "../components/Footer";
 import FadeInSection from "../components/FadeInSection";
 
 
@@ -85,7 +84,6 @@ export default function BlogPage() {
                 </section>
             </div>
             <SubscribeSection />
-            <Footer />
         </>
     );
 }

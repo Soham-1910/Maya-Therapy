@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import FadeInSection from "../components/FadeInSection";
-import Footer from "../components/Footer";
 
 const professionalData = [
     {
@@ -101,8 +100,6 @@ export default function BackgroundAndCTA() {
                     </FadeInSection>
                 </div>
             </section>
-                <Footer />
-
         </div>
     );
 }

@@ -1,4 +1,3 @@
-import Footer from "../../components/Footer";
 import React from "react";
 import Link from "next/link";
 
@@ -50,7 +49,6 @@ const BlogPostPage = () => {
                 </article>
             </div>
             <div className=" border-b border-[#2D3925] "></div>
-            <Footer />
         </>
     );
 };
